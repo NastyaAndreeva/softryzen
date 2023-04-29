@@ -1,0 +1,31 @@
+.cases__list {
+    list-style: none;
+    margin-bottom: -8px;
+    @media screen and (min-width: 768px){
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: space-between
+    }
+}
+
+.cases__listitem {
+    margin-bottom: 8px;
+    @media screen and (min-width: 768px){
+        margin-bottom: 18px;
+    }
+}
+
+.cases__img {
+    width: 280px;
+    height: 176px;
+    margin-bottom: 8px;
+    @media screen and (min-width: 768px){
+        width: 223px;
+        height: 148px;
+        margin-bottom: 18px;
+    }
+    @media screen and (min-width: 1360px){
+        width: 421px;
+        height: 282px;
+    }
+}

@@ -1,0 +1,59 @@
+.cases__left {
+    height: 220px;
+    background: url("../../images/home/people.jpg");
+    background-size: cover;
+}
+
+.cases__right {
+    color: #333333;
+    padding: 79px 21px 79px 20px;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media screen and (min-width: 768px){
+        padding: 48px 32px 40px 32px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    @media screen and (min-width: 1360px){
+        padding: 79px 32px 71px 32px;
+    }
+}
+
+.cases__title {
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    @media screen and (min-width: 768px){
+        font-size: 40px;
+        line-height: 54px;
+        margin-top: 18px;
+    }
+}
+
+.cases__description {
+    text-align: center;
+    margin-bottom: 31px;
+    @media screen and (min-width: 768px){
+        margin-bottom: 30px;
+    }
+}
+
+.cases__btn {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    width: 146px;
+    height: 54px;
+    color: #fff;
+    margin-top: 24px;
+}
